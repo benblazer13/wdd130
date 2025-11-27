@@ -189,3 +189,116 @@ section.history {
   width: 100%;
   border-radius: 6px;
 }
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    border: 2px solid #088395;
+}
+
+.contact-form {
+    margin: 32px 16px;
+    padding: 16px;
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    width: 100%;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+    margin-right: 8px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.employee-profiles {
+    margin: 32px 16px;
+}
+
+.employee-profiles h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-profiles .employee {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.employee-profiles .employee img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid var(--secondary-color);
+    margin-bottom: 8px;
+}
+
+.employee-profiles .employee p {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.contact-info {
+    margin: 32px 16px;
+    padding: 16px;
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+}
+
+.contact-info h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-info p {
+    margin: 6px 0;
+    font-size: 1rem;
+}
