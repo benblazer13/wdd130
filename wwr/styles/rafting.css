@@ -127,6 +127,10 @@ nav ul li a {
   clear: both;
 }
 
+.hero article h2{
+  color:white
+}
+
 .hero article button {
     background-color: var(--accent2-color);
     color: var(--primary-color);
